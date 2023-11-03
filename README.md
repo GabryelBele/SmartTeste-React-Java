@@ -1,6 +1,6 @@
 # Projeto First Job - Smart Test
 
-Este é um projeto desenvolvido como parte de um Smart Test para o grupo de primeiro emprego, First Job. O projeto inclui um backend em Java e uma aplicação frontend em React.
+Este é um projeto desenvolvido como parte de um teste para o grupo de primeiro emprego, First Job. O projeto inclui um backend em Java e uma aplicação frontend em React.
 
 ## Estrutura do Projeto
 
