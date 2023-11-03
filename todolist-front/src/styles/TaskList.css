@@ -1,0 +1,115 @@
+/* Estilos para a página de lista de tarefas */
+.task-list {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Estilos para o título */
+  .app-title {
+    margin: 0;
+  }
+  
+  /* Estilos para o contêiner principal */
+  .task-list-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para a sublista de tarefas */
+  .subList {
+    text-align: center;
+  }
+  
+  /* Estilos para o subtítulo */
+  .subtitle {
+    color: #333;
+  }
+  
+  /* Estilos para a seção de criação de tarefa */
+  .create-task-listTask {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para os campos de entrada e botão de criação de tarefa */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para a lista de tarefas */
+  .horizontal-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilos para os itens de tarefa */
+  .task-item {
+    background-color: #fff;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  /* Estilos para os botões de edição e exclusão */
+  .edit,
+  .delete {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .edit:hover,
+  .delete:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para a seção de edição de tarefa */
+  .edit-task-section {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
